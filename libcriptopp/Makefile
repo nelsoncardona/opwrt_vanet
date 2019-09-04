@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libcrypto++
-PKG_VERSION:=5.6.4
+PKG_VERSION:=5.6.1
 
-PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).orig.tar.xz
+PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).orig.tar.gz
 PKG_SOURCE_URL:=http://ftp.de.debian.org/debian/pool/main/libc/libcrypto++/
-PKG_MD5SUM:=681f830145bf93cbc16113eaf61fbe2a
+# PKG_MD5SUM:=681f830145bf93cbc16113eaf61fbe2a
 
 PKG_FIXUP:=autoreconf
 PKG_REMOVE_FILES:=aclocal.m4 GNUmakefile
