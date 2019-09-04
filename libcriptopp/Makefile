@@ -10,10 +10,13 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=libcrypto++
 PKG_VERSION:=5.6.1
 
-PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).orig.tar.gz
-PKG_SOURCE_URL:=http://ftp.de.debian.org/debian/pool/main/libc/libcrypto++/
+# PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).orig.tar.gz
+
+#PKG_SOURCE_URL:=http://ftp.de.debian.org/debian/pool/main/libc/libcrypto++/
+PKG_SOURCE_URL:=https://github.com/weidai11/cryptopp/archive/CRYPTOPP_5_6_4.tar.gz
 # PKG_MD5SUM:=681f830145bf93cbc16113eaf61fbe2a
-PKG_MD5SUM:=675b28ba5ff4515c0df40c60950d931b
+# PKG_MD5SUM:=675b28ba5ff4515c0df40c60950d931b
+PKG_MD5SUM:= 65c4efbd15df15e2facb5dd3b1ccf965 
 
 
 #PKG_FIXUP:=autoreconf
