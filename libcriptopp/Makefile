@@ -15,9 +15,9 @@ PKG_SOURCE_URL:=http://ftp.de.debian.org/debian/pool/main/libc/libcrypto++/
 PKG_MD5SUM:=26ec965354126d42ee3b8e9cf62f8af5
 
 
-#PKG_FIXUP:=autoreconf
-#PKG_REMOVE_FILES:=aclocal.m4 GNUmakefile
-#PKG_INSTALL:=1
+PKG_FIXUP:=autoreconf
+PKG_REMOVE_FILES:=aclocal.m4 GNUmakefile
+PKG_INSTALL:=1
 
 include $(INCLUDE_DIR)/package.mk
 
